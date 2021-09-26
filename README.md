@@ -6,7 +6,7 @@ El juego funciona conectando una base de datos MySQL en lenguaje java en un proy
 Por tanto los pasos iniciales a seguir son:
 1. Configurar atrinutos en "retoSofka.drive.IngresoBaseData.java".
 2. Crear la base de datos y las tablas en la base de datos MySQL (Anexo codigo para esto).
-3. Ejecutar con un servidor el archivo **"prujsp.jsp"**, el cual esta asociado a la clase **"GeneradorPreguntasRespuestas.java"**, esto agregara una serie de 26 preguntas con sus respuestas asociadas a la base de datos de esta.
+3. Ejecutar con un servidor el archivo **"prujsp.jsp"**, el cual esta asociado a la clase **"PreguntasRespuestasPruebas.java"**, esto agregara una serie de 26 preguntas con sus respuestas asociadas a la base de datos de esta.
 4. Ejecutar el JSP index.jsp con ayuda de un servidor, para ingresar al juego el unico dato obligatorio es la identificación, los otros campos pueden estar vacios.
 
 En cuanto a que base de datos usar, se puede usar a preferencia o crear una con el mismo nombre con la que se uso en las pruebas (sofkareto).
@@ -34,7 +34,7 @@ donde "*rutaBaseDatos*" hace referencia hacia donde esta alojada la base de dato
 
 
 
-Para general las preguntas y respuestas de prueba, se tiene un archivo llamado **"prujsp.jsp"**, el cual esta asociado a la clase **"GeneradorPreguntasRespuestas.java"**, el cual hace basta con ejecutar el archivo jsp en un servidor para que se generen 26 preguntas con sus respectivas respuestas asociadas. Es la única vez que se debería de ejecutar dichos archivos.
+Para general las preguntas y respuestas de prueba, se tiene un archivo llamado **"prujsp.jsp"**, el cual esta asociado a la clase **"PreguntasRespuestasPruebas.java"**, el cual hace basta con ejecutar el archivo jsp en un servidor para que se generen 26 preguntas con sus respectivas respuestas asociadas. Es la única vez que se debería de ejecutar dichos archivos.
 
 Cuando se tenga configurado el ingreso a la base de datos y se hayan agregado las preguntas y respuestas, el juego se inicia ejecutando el archivo **"index.jsp"** en un servidor.
 
