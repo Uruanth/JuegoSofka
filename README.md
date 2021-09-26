@@ -38,6 +38,8 @@ Para general las preguntas y respuestas de prueba, se tiene un archivo llamado *
 
 Cuando se tenga configurado el ingreso a la base de datos y se hayan agregado las preguntas y respuestas, el juego se inicia ejecutando el archivo **"index.jsp"** en un servidor.
 
+El proyecto fue ejecutado y probado con ayuda del IDE eclipse 2021-09 y servidor (contenedor web) apache tomcat 9.0.4, con el fin de poder copilar los archivos JSP.
+
 ## Anexos
 
 * **Codigo generar tablas**
