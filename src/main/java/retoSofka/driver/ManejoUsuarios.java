@@ -15,7 +15,11 @@ import retoSofka.model.PendientesDAO;
 import retoSofka.model.PendientesDTO;
 import retoSofka.model.UsuarioDAO;
 import retoSofka.model.UsuarioDTO;
-
+/**
+ * Servlet que inicializa y comprueba los datos de ingreso del usuario
+ * @author Dairon Perilla
+ *
+ */
 @WebServlet("/ManejoPeticiones")
 public class ManejoUsuarios extends HttpServlet {
 	private static final long serialVersionUID = 1L;
