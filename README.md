@@ -3,13 +3,18 @@
 ## Configuraciones iniciales 
 
 El juego funciona conectando una base de datos MySQL en lenguaje java en un proyecto web. Debido a lo anterior y que se uso una base de datos local es necesario crear las tablas con las columnas idénticas, en el presente documento se anexa el código de crear dichas tablas.
+Por tanto los pasos iniciales a seguir son:
+1. Configurar atrinutos en "retoSofka.drive.IngresoBaseData.java".
+2. Crear la base de datos y las tablas en la base de datos MySQL (Anexo codigo para esto).
+3. Ejecutar con un servidor el archivo **"prujsp.jsp"**, el cual esta asociado a la clase **"GeneradorPreguntasRespuestas.java"**, esto agregara una serie de 26 preguntas con sus respuestas asociadas a la base de datos de esta.
+4. Ejecutar el JSP index.jsp con ayuda de un servidor, para ingresar al juego el unico dato obligatorio es la identificación, los otros campos pueden estar vacios.
 
-En cuanto a que base de datos usar, se puede usar a preferencia o crear una con el mismo nombre con la que se uso en las pruebas (sofkaReto).
+En cuanto a que base de datos usar, se puede usar a preferencia o crear una con el mismo nombre con la que se uso en las pruebas (sofkareto).
 
  En el package "retoSofka.driver" se encuentra la clase llamada "IngresoBaseData.java", en esta clase se encuentran los atributos: 
 
 ~~~java
-private static String rutaBaseDatos = "jdbc:mysql://localhost:";
+	private static String rutaBaseDatos = "jdbc:mysql://localhost:";
 	private static String puerto = "3306";
 	private static String nombreBaseDatos = "sofkareto";
 	private static String usuarioBaseDatos = "root";
