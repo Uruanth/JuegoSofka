@@ -29,10 +29,8 @@
  inBD.iniciarBD();
  %>
 
-
-    <form action="TestServlet" method="post">
-    <input type="submit">
-    </form>
+<h1>YA SE CARGO LA BASE DE DATOS</h1>
+    
 </body>
 </html>
 <%

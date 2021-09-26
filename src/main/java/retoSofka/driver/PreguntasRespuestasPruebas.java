@@ -195,7 +195,6 @@ public class PreguntasRespuestasPruebas {
 		for(RespuestasDTO r: ar) {
 			rdao.crearRespuesta(r);
 		}
-		System.out.println("inicio fin ciclo for crear BD");
 	}
 	
 	
