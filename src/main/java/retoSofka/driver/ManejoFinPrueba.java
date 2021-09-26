@@ -56,7 +56,6 @@ if(request.getParameter("fin")!=null) {
 		}
 		
 		if(request.getParameter("continuar")!=null) {
-			System.out.println("contunuar\n");
 			int id=Integer.parseInt(request.getParameter("id"));
 			if(request.getParameter("c").equals("C")) {
 				
@@ -79,9 +78,7 @@ if(request.getParameter("fin")!=null) {
 				rd.forward(request, response);
 				
 			}else {
-				System.out.println("incorreco"+id);
 				request.setAttribute("idus", id);
-				System.out.println("obtener atributo");
 				response.sendRedirect("/resultado.jsp");
 				
 			}

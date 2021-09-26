@@ -26,14 +26,15 @@ public class ManejoPuntaje {
 	private int consultarCate() {
 		int id=consultarID();
 		if(id==0) {
-			System.out.println("consulta id="+id);
 			return 0;
 		}else {
 			PendientesDTO pt=new PendientesDTO();
 			pt.setId_user(id);
 			PendientesDAO pa=new PendientesDAO();
 			pt=pa.consultar(pt);
-			return pt.getCategoriaPregunta();
+			int cat=pt.getCategoriaPregunta();
+			pa.pendientes(pt);
+			return cat;
 		}
 		
 		
@@ -47,9 +48,6 @@ public class ManejoPuntaje {
 		HistorialDTO ht=new HistorialDTO();
 		ht.setId_user(consultarID());
 		if(ht.getId_user()!=0) {
-			System.out.println("Crear historial");
-			
-			
 			
 			lista=ha.registros(ht);
 			ht.setNumeroIntento(lista.size()+1);

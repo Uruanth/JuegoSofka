@@ -35,7 +35,6 @@ public class ManejoUsuarios extends HttpServlet {
 		// TODO Auto-generated method stub
 		doGet(request, response);
 		
-		System.out.println("ingreso usuario");
 		UsuarioDTO usDTO = new UsuarioDTO();
 		UsuarioDAO usDAO = new UsuarioDAO();
 		
@@ -79,7 +78,6 @@ public class ManejoUsuarios extends HttpServlet {
 		}
 		
 		
-		System.out.println("fin dopost");
 		
 		
 		

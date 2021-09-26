@@ -89,7 +89,6 @@ public class UsuarioDAO {
 			try {
 				
 				a2=rs.getInt(1);
-				System.out.println(a2+" a2");
 			} catch (Exception e) {
 				System.out.println("error rs");
 			}

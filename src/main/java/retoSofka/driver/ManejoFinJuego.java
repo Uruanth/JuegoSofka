@@ -41,7 +41,6 @@ public class ManejoFinJuego extends HttpServlet {
 		}
 		
 		if(request.getParameter("continuar")!=null) {
-			System.out.println("contunuar\n");
 			
 			if(request.getParameter("c").equals("C")) {
 				

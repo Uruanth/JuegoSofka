@@ -55,7 +55,6 @@ public class HistorialDAO {
 				lista.add(hisDTO);
 			}
 			
-			System.out.println("lista: \n"+lista.size());
 		} catch (Exception e) {
 			e.printStackTrace();
 			

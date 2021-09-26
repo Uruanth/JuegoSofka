@@ -28,13 +28,12 @@
 <%
 	ManejoPuntaje mp=new ManejoPuntaje();
 	ArrayList<HistorialDTO> lista=mp.lista();
-	System.out.println("Tamaño lista="+lista.size());
 
 %>
 
 <div class="div_tabla">
         <div class="titulo_tabla">
-            <h1>Titulo tabla</h1>
+            <h1></h1>
         </div>
 
         <div class="columna_tabla encabezados">
@@ -58,7 +57,7 @@
            <%=lista.get(taLista-1).getNumeroIntento() %>
         </div>
         <div class="columna_tabla">
-           <%=lista.get(taLista-1).getPuntaje() %>
+           <%=lista.get(taLista-1).getPuntaje()-2%>
         </div>
         <div class="columna_tabla">
             <%=lista.get(taLista-1).getPuntaje() %>

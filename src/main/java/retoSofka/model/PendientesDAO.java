@@ -84,6 +84,7 @@ public class PendientesDAO {
 			con=IngresoBaseData.getConexion();
 			ps=con.prepareStatement(query);
 			ps.setInt(1, pdto.getId_user());
+			ps.executeUpdate();
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
