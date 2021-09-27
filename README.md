@@ -4,7 +4,7 @@
 
 El juego funciona conectando una base de datos MySQL en lenguaje java en un proyecto web. Debido a lo anterior y que se uso una base de datos local es necesario crear las tablas con las columnas idénticas, en el presente documento se anexa el código de crear dichas tablas.
 Por tanto los pasos iniciales a seguir son:
-1. Configurar atrinutos en "retoSofka.drive.IngresoBaseData.java".
+1. Configurar atributos en "retoSofka.drive.IngresoBaseData.java".
 2. Crear la base de datos y las tablas en la base de datos MySQL (Anexo codigo para esto).
 3. Ejecutar con un servidor el archivo **"prujsp.jsp"**, el cual esta asociado a la clase **"PreguntasRespuestasPruebas.java"**, esto agregara una serie de 26 preguntas con sus respuestas asociadas a la base de datos de esta.
 4. Ejecutar el JSP index.jsp con ayuda de un servidor, para ingresar al juego el unico dato obligatorio es la identificación, los otros campos pueden estar vacios.
@@ -42,7 +42,7 @@ El proyecto fue ejecutado y probado con ayuda del IDE eclipse 2021-09 y servidor
 
 ## Anexos
 
-* **Codigo generar tablas**
+* **Código generar tablas**
 
 ~~~sql
 create database sofkaReto;
@@ -95,6 +95,12 @@ El repositorio original de GitHub que use con las primeras versiones se me vio a
 Repositorio anterior https://github.com/Uruanth/retoSofka.git
 
 Repositorio actual https://github.com/Uruanth/JuegoSofka.git
+
+##### **2021-09-27**
+
+Un día después de enviar la entrega del reto, realice un video donde muestro como configure y ejecute el reto en un video corto, este lo subí a YouTube y a continuación anexo el enlace. El código del proyecto no a sido modificado para nada en el video o después de la entrega.
+
+Enlace video: https://youtu.be/3Oyb1t07LKw
 
 ## Agradecimientos
 
